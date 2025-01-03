@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campaña de Servicio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: #000000;
+            line-height: 1.6;
+            background-color: #000000;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #C3002F;
+            font-size: 24px;
+            text-align: center;
+        }
+        p {
+            margin: 10px 0;
+        }
+        .highlight {
+            color: #C3002F;
+            font-weight: bold;
+        }
+        .footer {
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #000000;
+            text-align: center;
+            border-top: 1px solid #eaeaea;
+            padding-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Campaña de Servicio Disponible</h1>
+        <p>Estimado cliente,</p>
+        <p>Le informamos que su vehículo con el número de identificación (VIN) <span class="highlight">[VIN]</span> tiene una campaña de servicio disponible. Le invitamos a visitar su distribuidor <span class="highlight">[Distribuidor]</span> para realizar la campaña a la mayor brevedad posible.</p>
+        <p>Atentamente,</p>
+        <p><strong>Grupo Torres Corzo</strong></p>
+        <p>Taller: <span class="highlight">[Taller]</span></p>
+        <div class="footer">
+            Correo generado automáticamente por un robot, por favor no responda.
+        </div>
+    </div>
+</body>
+</html>
