@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Error: Inicio de Proceso</title>
+  <title>Advertencia de Proceso</title>
 </head>
 <body style="margin: 0; font-family: 'Times New Roman', Times; background-color: #f4f4f9; color: #333; padding: 1rem;">
   <table width="100%" style="background-color: #f4f4f9; padding: 1rem; max-width: 600px; margin: 0 auto; border-collapse: collapse;">
