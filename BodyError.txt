@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de Proceso</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .error {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .texto {
+            font-size: 20px;
+            color: orange;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .cyborg {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .contenedor {
+            text-align: center;
+            height: 100vh;
+            display: inline-block;
+        }
+
+        .qr {
+            padding-right: 20px;
+        }
+
+        .qr img {
+            max-width: 100%;
+        }
+
+        .parrafo {
+            padding-left: 20px;
+            margin: 0 auto;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 20px;
+        }
+
+        .firma {
+            text-align: center;
+            padding-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="error">
+        <img src="https://i.postimg.cc/F75qtQ6X/cerrar.png" alt="error" width="10%">
+    </div>
+
+    <div class="texto">
+        <p>Ha ocurrido un error [no controlado ]en la ejecucion</p>
+    </div>
+
+    <div class="cyborg">
+        <img src="https://i.postimg.cc/svYLsNFQ/Cyborg.png" alt="Cyborg" width="10%" />
+    </div>
+
+    <div class="contenedor">
+	<p>[ERROR]</p>
+
+        <div class="qr">
+            <img src="https://i.postimg.cc/K1mHzDF9/qr.png" alt="qr" />
+        </div>
+
+        <div class="parrafo">
+            <pre>
+                <b>Mesa de Soporte AMS (Application Management Service) 
+                Enrique Rébsamen 925, Col. Narvarte Poniente,
+                Del. Benito Juárez, C.P. 03020
+                Correo: </b><a href="mailto:AMS@cyborgconsulting.com.mx?subject=Mesa de Soporte&body=">AMS@cyborgconsulting.com.mx</a>
+            </pre>
+        </div>
+
+    </div>
+
+    <div class="firma">
+        <img src="https://i.postimg.cc/sxxb7mWq/RPA.png" alt="Firma">
+    </div>
+
+</body>
+
+</html>
