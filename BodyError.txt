@@ -1,99 +1,42 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio de Proceso</title>
-
-    <style>
-        body {
-            margin: 0;
-            font-family: 'Times New Roman', Times, serif;
-        }
-
-        .error {
-            text-align: center;
-            padding: 20px;
-        }
-
-        .texto {
-            font-size: 20px;
-            color: orange;
-            text-align: center;
-            padding: 20px;
-        }
-
-        .cyborg {
-            text-align: center;
-            padding: 20px;
-        }
-
-        .contenedor {
-            text-align: center;
-            height: 100vh;
-            display: inline-block;
-        }
-
-        .qr {
-            padding-right: 20px;
-        }
-
-        .qr img {
-            max-width: 100%;
-        }
-
-        .parrafo {
-            padding-left: 20px;
-            margin: 0 auto;
-            border: 1px solid #ccc;
-            border-radius: 8px;
-            padding: 20px;
-        }
-
-        .firma {
-            text-align: center;
-            padding-top: 20px;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <title>Error de Proceso</title>
 </head>
-
-<body>
-
-    <div class="error">
-        <img src="https://i.postimg.cc/F75qtQ6X/cerrar.png" alt="error" width="10%">
-    </div>
-
-    <div class="texto">
-        <p>Ha ocurrido un error [no controlado ]en la ejecucion</p>
-    </div>
-
-    <div class="cyborg">
-        <img src="https://i.postimg.cc/svYLsNFQ/Cyborg.png" alt="Cyborg" width="10%" />
-    </div>
-
-    <div class="contenedor">
-	<p>[ERROR]</p>
-
-        <div class="qr">
-            <img src="https://i.postimg.cc/K1mHzDF9/qr.png" alt="qr" />
+<body style="margin: 0; font-family: 'Times New Roman', Times; background-color: #f4f4f9; color: #333; padding: 1rem;">
+  <table width="100%" style="background-color: #f4f4f9; padding: 1rem; max-width: 600px; margin: 0 auto; border-collapse: collapse;">
+    <tr>
+      <td align="center" style="background-color: #fff; padding: 1.5rem; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); border-radius: 10px; text-align: center;">
+        <div style="margin-bottom: 1rem;">
+          <img src="https://i.postimg.cc/hh0rYrS1/Error.png" alt="error" style="width: 50px; height: auto;">
         </div>
-
-        <div class="parrafo">
-            <pre>
-                <b>Mesa de Soporte AMS (Application Management Service) 
-                Enrique Rébsamen 925, Col. Narvarte Poniente,
-                Del. Benito Juárez, C.P. 03020
-                Correo: </b><a href="mailto:AMS@cyborgconsulting.com.mx?subject=Mesa de Soporte&body=">AMS@cyborgconsulting.com.mx</a>
-            </pre>
+        <div style="background-color: #ffe5e5; color: #d9534f; padding: 1rem; border-radius: 10px; font-size: 0.9rem; margin-bottom: 1rem;">
+[TEXTO]
         </div>
-
-    </div>
-
-    <div class="firma">
-        <img src="https://i.postimg.cc/sxxb7mWq/RPA.png" alt="Firma">
-    </div>
-
+        <div style="margin: 1rem 0;">
+          <img src="https://i.postimg.cc/C51x3MHB/Cyborg.png" alt="Cyborg" style="width: 100px; height: auto;">
+        </div>
+        <table width="100%" style="margin: 1.5rem 0; font-size: 0.9rem; line-height: 1.5;">
+          <tr>
+            <td align="left">
+              <pre style="white-space: pre-wrap; word-wrap: break-word; margin: 0; font-size: 0.9rem;">
+<b>Mesa de Soporte AMS (Application Management Service)</b>
+Enrique Rébsamen 925, Col. Narvarte Poniente,
+Del. Benito Juárez, C.P. 03020
+Correo: AMS@cyborgconsulting.com.mx
+              </pre>
+            </td>
+            <td align="right">
+              <img src="https://i.postimg.cc/hfy0DtQJ/Qr.png" alt="qr" style="width: 80px; height: auto;">
+            </td>
+          </tr>
+        </table>
+        <div style="margin-top: 2rem;">
+          <img src="https://i.postimg.cc/xdPXb46R/Banner.png" alt="Firma" style="width: 100%; height: auto; max-width: 600px;">
+        </div>
+      </td>
+    </tr>
+  </table>
 </body>
-
 </html>
