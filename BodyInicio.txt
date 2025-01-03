@@ -2,150 +2,41 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Error: Inicio de Proceso</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background-color: #f4f4f9;
-      color: #333;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      min-height: 100vh;
-      padding: 1rem;
-    }
-
-    .container {
-      width: 100%;
-      max-width: 600px;
-      text-align: center;
-      background-color: #fff;
-      padding: 1.5rem;
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-      border-radius: 10px;
-    }
-
-    img {
-      max-width: 100%;
-      height: auto;
-    }
-
-    .inicio img {
-      width: 10%; /* Ajusta la imagen de error al 50% del contenedor */
-    }
-
-    .cyborg img,
-    .qr img {
-      width: 100px; /* Ajusta el tamaño de otras imágenes */
-    }
-
-    .message {
-      background-color: #e5ffe5;
-      color: #5cb85c;
-      padding: 1rem;
-      border-radius: 10px;
-      font-size: 0.9rem;
-      margin-bottom: 1rem;
-    }
-
-    .details {
-      margin: 1.5rem 0;
-    }
-
-    .details .text-left {
-      text-align: left;
-      font-size: 0.9rem;
-      line-height: 1.5;
-      
-    }
-
-    .details pre {
-      margin: 0;
-      white-space: pre-wrap;
-      word-wrap: break-word;
-    }
-
-    .details a {
-      color: #007bff;
-      text-decoration: none;
-    }
-
-    .details a:hover {
-      text-decoration: underline;
-    }
-
-    /* La clase firma ocupa todo el ancho */
-    .firma {
-      width: 100%; /* Abarca todo el ancho disponible */
-      display: flex;
-      justify-content: center; /* Centra el contenido */
-      margin-top: 2rem;
-    }
-
-    .firma img {
-      max-width: 100%; /* La imagen ocupará el ancho completo */
-      height: auto; /* Mantiene la proporción */
-    }
-
-    /* Ajustes para pantallas pequeñas */
-    @media (max-width: 600px) {
-      .container {
-        padding: 1rem;
-      }
-
-      .inicio img {
-        width: 10%; /* Mantiene el tamaño al 50% en pantallas pequeñas */
-      }
-
-      .cyborg img,
-      .qr img {
-        width: 80px; /* Reduce el tamaño de las imágenes en pantallas más pequeñas */
-      }
-
-      .message {
-        font-size: 0.9rem;
-        padding: 0.8rem;
-      }
-
-      .details .text-left {
-        font-size: 0.8rem;
-      }
-    }
-  </style>
+  <title>Inicio de Proceso</title>
 </head>
-<body>
-  <div class="container">
-    <div class="inicio">
-      <img src="https://i.postimg.cc/VNcypjy0/lanzadera.png" alt="inicio">
-    </div>
-
-    <div class="message">
-       El proceso [PROCESO] ha iniciado.
-    </div>
-
-    <div class="cyborg">
-      <img src="https://i.postimg.cc/svYLsNFQ/Cyborg.png" alt="Cyborg">
-    </div>
-
-    <div class="details">
-      <div class="text-left">
-        <pre>
+<body style="margin: 0; font-family: 'Times New Roman', Times; background-color: #f4f4f9; color: #333; padding: 1rem;">
+  <table width="100%" style="background-color: #f4f4f9; padding: 1rem; max-width: 600px; margin: 0 auto; border-collapse: collapse;">
+    <tr>
+      <td align="center" style="background-color: #fff; padding: 1.5rem; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); border-radius: 10px; text-align: center;">
+        <div style="margin-bottom: 1rem;">
+          <img src="https://i.postimg.cc/rKFJ2rsX/Inicio.png" alt="error" style="width: 50px; height: auto;">
+        </div>
+        <div style="background-color: #add8e6; color: #000000; padding: 1rem; border-radius: 10px; font-size: 0.9rem; margin-bottom: 1rem;">
+[TEXTO]
+        </div>
+        <div style="margin: 1rem 0;">
+          <img src="https://i.postimg.cc/C51x3MHB/Cyborg.png" alt="Cyborg" style="width: 100px; height: auto;">
+        </div>
+        <table width="100%" style="margin: 1.5rem 0; font-size: 0.9rem; line-height: 1.5;">
+          <tr>
+            <td align="left">
+              <pre style="white-space: pre-wrap; word-wrap: break-word; margin: 0; font-size: 0.9rem;">
 <b>Mesa de Soporte AMS (Application Management Service)</b>
 Enrique Rébsamen 925, Col. Narvarte Poniente,
 Del. Benito Juárez, C.P. 03020
 Correo: AMS@cyborgconsulting.com.mx
-        </pre>
-      </div>
-      <div class="qr">
-        <img src="https://i.postimg.cc/K1mHzDF9/qr.png" alt="qr">
-      </div>
-    </div>
-
-    <div class="firma">
-      <img src="https://i.postimg.cc/sxxb7mWq/RPA.png" alt="Firma">
-    </div>
-  </div>
+              </pre>
+            </td>
+            <td align="right">
+              <img src="https://i.postimg.cc/hfy0DtQJ/Qr.png" alt="qr" style="width: 80px; height: auto;">
+            </td>
+          </tr>
+        </table>
+        <div style="margin-top: 2rem;">
+          <img src="https://i.postimg.cc/xdPXb46R/Banner.png" alt="Firma" style="width: 100%; height: auto; max-width: 600px;">
+        </div>
+      </td>
+    </tr>
+  </table>
 </body>
 </html>
