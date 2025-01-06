@@ -3,25 +3,55 @@
 <head>
   <meta charset="UTF-8">
   <title>Inicio de Proceso</title>
+  <style>
+    @font-face {
+      font-family: 'Avenir Next Condensed';
+      src: url('https://fonts.cdnfonts.com/s/12345/AvenirNextCondensed-Regular.woff2') format('woff2'),
+           url('https://fonts.cdnfonts.com/s/12345/AvenirNextCondensed-Regular.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Avenir Next Condensed', sans-serif;
+      background-color: #f4f4f9;
+      color: #333;
+      padding: 1rem;
+    }
+
+    table {
+      font-family: 'Avenir Next Condensed', sans-serif;
+    }
+
+    .normal-text {
+      font-size: 10px;
+    }
+
+    .emphasis-text {
+      font-size: 11px;
+      font-weight: bold;
+    }
+  </style>
 </head>
-<body style="margin: 0; font-family: 'Times New Roman', Times; background-color: #f4f4f9; color: #333; padding: 1rem;">
+<body>
   <table width="100%" style="background-color: #f4f4f9; padding: 1rem; max-width: 600px; margin: 0 auto; border-collapse: collapse;">
     <tr>
       <td align="center" style="background-color: #fff; padding: 1.5rem; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); border-radius: 10px; text-align: center;">
         <div style="margin-bottom: 1rem;">
           <img src="https://i.postimg.cc/rKFJ2rsX/Inicio.png" alt="error" style="width: 50px; height: auto;">
         </div>
-        <div style="background-color: #add8e6; color: #000000; padding: 1rem; border-radius: 10px; font-size: 0.9rem; margin-bottom: 1rem;">
+        <div class=".normal-text" style="background-color: #add8e6; color: #003366; padding: 1rem; border-radius: 10px; font-size: 0.9rem; margin-bottom: 1rem;">
 [TEXTO]
         </div>
         <div style="margin: 1rem 0;">
           <img src="https://i.postimg.cc/C51x3MHB/Cyborg.png" alt="Cyborg" style="width: 100px; height: auto;">
         </div>
-        <table width="100%" style="margin: 1.5rem 0; font-size: 0.9rem; line-height: 1.5;">
+        <table width="100%" style="margin: 1.5rem 0; line-height: 1.5;">
           <tr>
             <td align="left">
-              <pre style="white-space: pre-wrap; word-wrap: break-word; margin: 0; font-size: 0.9rem;">
-<b>Mesa de Soporte AMS (Application Management Service)</b>
+              <pre class="normal-text" style="white-space: pre-wrap; word-wrap: break-word; margin: 0;">
+<b class="emphasis-text">Mesa de Soporte AMS (Application Management Service)</b>
 Enrique Rébsamen 925, Col. Narvarte Poniente,
 Del. Benito Juárez, C.P. 03020
 Correo: AMS@cyborgconsulting.com.mx
@@ -40,3 +70,4 @@ Correo: AMS@cyborgconsulting.com.mx
   </table>
 </body>
 </html>
+
