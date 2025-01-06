@@ -56,15 +56,15 @@
         <div class="container">
           <div class="card green">
             <div>Completado</div>
-            <div>[PCompletado]</div>
+            <div>[PCompletado]%</div>
           </div>
           <div class="card red">
             <div>No Completado</div>
-            <div>[PNoCompletado]</div>
+            <div>[PNoCompletado]%</div>
           </div>
           <div class="card yellow">
             <div>Requieren Verificación</div>
-            <div>[PRVerificacion]</div>
+            <div>[PRVerificacion]%</div>
           </div>
         </div>
         <div style="margin: 1rem 0;">
