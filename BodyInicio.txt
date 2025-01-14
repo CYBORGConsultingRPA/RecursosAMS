@@ -39,7 +39,7 @@
     <tr>
       <td align="center" style="background-color: #fff; padding: 1.5rem; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); border-radius: 10px; text-align: center;">
         <div style="margin-bottom: 1rem;">
-          <img src="https://i.postimg.cc/rKFJ2rsX/Inicio.png" alt="error" style="width: 50px; height: auto;">
+          <img src="https://i.postimg.cc/qB6fLRw1/Inicio.png" alt="error" style="width: 50px; height: auto;">
         </div>
         <div class=".normal-text" style="background-color: #add8e6; color: #003366; padding: 1rem; border-radius: 10px; font-size: 0.9rem; margin-bottom: 1rem;">
 [TEXTO]
