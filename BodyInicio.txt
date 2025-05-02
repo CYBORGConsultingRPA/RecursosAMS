@@ -39,13 +39,13 @@
     <tr>
       <td align="center" style="background-color: #fff; padding: 1.5rem; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); border-radius: 10px; text-align: center;">
         <div style="margin-bottom: 1rem;">
-          <img src="https://i.postimg.cc/qB6fLRw1/Inicio.png" alt="error" style="width: 50px; height: auto;">
+          <img src="https://www.cyborgconsulting.com.mx/fragment/themes/cyborgconsulting/videos/Inicio.png" alt="error" style="width: 50px; height: auto;">
         </div>
         <div class=".normal-text" style="background-color: #add8e6; color: #003366; padding: 1rem; border-radius: 10px; font-size: 0.9rem; margin-bottom: 1rem;">
 [TEXTO]
         </div>
         <div style="margin: 1rem 0;">
-          <img src="https://i.postimg.cc/C51x3MHB/Cyborg.png" alt="Cyborg" style="width: 100px; height: auto;">
+          <img src="https://www.cyborgconsulting.com.mx/fragment/themes/cyborgconsulting/videos/Cyborg.png" alt="Cyborg" style="width: 100px; height: auto;">
         </div>
         <table width="100%" style="margin: 1.5rem 0; line-height: 1.5;">
           <tr>
@@ -58,12 +58,12 @@ Correo: AMS@cyborgconsulting.com.mx
               </pre>
             </td>
             <td align="right">
-              <img src="https://i.postimg.cc/hfy0DtQJ/Qr.png" alt="qr" style="width: 80px; height: auto;">
+              <img src="https://www.cyborgconsulting.com.mx/fragment/themes/cyborgconsulting/videos/Qr.png" alt="qr" style="width: 80px; height: auto;">
             </td>
           </tr>
         </table>
         <div style="margin-top: 2rem;">
-          <img src="https://i.postimg.cc/xdPXb46R/Banner.png" alt="Firma" style="width: 100%; height: auto; max-width: 600px;">
+          <img src="https://www.cyborgconsulting.com.mx/fragment/themes/cyborgconsulting/videos/Banner.png" alt="Firma" style="width: 100%; height: auto; max-width: 600px;">
         </div>
       </td>
     </tr>
